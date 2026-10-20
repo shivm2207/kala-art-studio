@@ -14,7 +14,7 @@ Painting purchase operations use a pessimistic database row lock to check availa
 
 ## 4. What did you finish, what did you leave out, and what would you do next?
 
-I implemented customer registration/login, the painting catalogue and purchase/cancellation flow, wall booking requests and admin confirmation, and custom pottery requests and admin acceptance. Admin management for orders, paintings, and catalogue information is also included. Customer and admin workflows were manually tested in the running application. I left out real payments, deployment, password reset, email notifications, and image uploads because they were outside the assignment scope. Next I would add broader automated integration and concurrency tests, improve error/loading-state coverage, and test the setup on a completely fresh machine.
+I implemented customer registration/login, the painting catalogue and purchase/cancellation flow, wall booking requests and admin confirmation, and custom pottery requests and admin acceptance. Admin management for orders, paintings, and catalogue information is also included. Customer and admin workflows were manually tested in the running application. I left out real payments, deployment, password reset, email notifications, and image uploads because they were outside the assignment scope. Next I would add broader automated integration and concurrency tests, improve error/loading-state coverage, and test the setup on a completely fresh machine. The backend supports editing pottery requests while their status is REQUESTED, but the frontend edit interface is not implemented yet.
 
 ## Implementation notes
 

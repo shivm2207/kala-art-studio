@@ -11,7 +11,7 @@ Kala is a full-stack art studio application with two roles: **customer** and **s
 
 ## Features
 
-**Customer:** Register/login, browse paintings, buy available paintings, cancel purchases, request and cancel eligible wall bookings, request/edit/cancel eligible pottery requests, and view their own records.
+**Customer:** Register/login, browse paintings, buy available paintings, cancel purchases, request and cancel eligible wall bookings, request and cancel eligible pottery requests. Editing a requested pottery order is supported by the backend API but is not yet exposed in the frontend.
 
 **Studio admin:** View orders, add/edit available paintings, view and confirm/decline wall bookings, accept/decline pottery requests, and manage studio catalogue information.
 
